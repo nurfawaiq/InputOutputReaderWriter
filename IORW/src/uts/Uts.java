@@ -20,15 +20,6 @@ public class Uts {
      */
     public static void main(String[] args) throws FileNotFoundException, IOException {
         // TODO code application logic here
-        System.out.print("----------------UTS PEMROGRAMAN JARINGAN---------------\n" +
-"----------   KELOMPOK 1                      ----------\n" +
-"----------   1. M. NUR FAWAIQ  - 201651085   ----------\n" +
-"----------   2. IDWAN HADI P.  - 201651046   ----------\n" +
-"----------   3. MUGI SARWO S.  - 201651067   ----------\n" +
-"----------   3. ILHAM FAHRIZAL - 201651072   ----------\n" +
-"----------   3. ARISTO NOMLENI - 201651036   ----------\n" +
-"----------   3. MUKHLISIN      - 201851296   ----------\n" +
-"------------------------------------------------------");
         for(String yn = "y"; yn.equals("y") || yn.equals("Y");){
             System.out.println("\n------------------ PROGRAM SEDERHANA -----------------\n" +
 "             MENU PROGRAM :\n" +
