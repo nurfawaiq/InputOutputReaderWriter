@@ -13,8 +13,8 @@ import java.io.*;
  */
 public class outputStream {
     public void process() {
-        String source = "D:\\DATA\\KULIAH\\Semester 6\\Pemrograman Jaringan (Bu Ratih)\\uts\\mydata.txt";
-        String dest = "D:\\DATA\\KULIAH\\Semester 6\\Pemrograman Jaringan (Bu Ratih)\\uts\\mydata_out.txt";
+        String source = "D:\\DATA\\KULIAH\\tugas\\mydata.txt";
+        String dest = "D:\\DATA\\KULIAH\\tugas\\mydata_out.txt";
         byte buf[];
         try {
             System.out.println("---------- OUTPUT STREAM ----------");
