@@ -18,7 +18,7 @@ public class Reader {
     BufferedReader fin;
     
     public Reader() throws FileNotFoundException {
-        File f = new File ("D:\\DATA\\KULIAH\\Semester 6\\Pemrograman Jaringan (Bu Ratih)\\uts\\text.txt");
+        File f = new File ("D:\\DATA\\KULIAH\\tugas\\text.txt");
         fr = new FileReader(f);
         fin = new BufferedReader(fr);
     }
