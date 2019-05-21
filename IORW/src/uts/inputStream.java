@@ -13,7 +13,7 @@ import java.io.*;
  */
 public class inputStream {
     public void process() {
-        String inputFile = "D:\\DATA\\KULIAH\\Semester 6\\Pemrograman Jaringan (Bu Ratih)\\uts\\is_data.txt";
+        String inputFile = "D:\\DATA\\KULIAH\\tugas\\is_data.txt";
         try {
             System.out.println("---------- INPUT STREAM ----------");
             
