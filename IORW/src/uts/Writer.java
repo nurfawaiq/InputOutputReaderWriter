@@ -18,7 +18,7 @@ public class Writer {
 
     public Writer() {
         try {
-            f = new File("D:\\DATA\\KULIAH\\Semester 6\\Pemrograman Jaringan (Bu Ratih)\\uts\\writer.txt");
+            f = new File("D:\\DATA\\KULIAH\\tugas\\writer.txt");
             fw = new FileWriter(f);
             fout = new PrintWriter(fw);   
         } catch (IOException e) {
@@ -44,7 +44,7 @@ public class Writer {
         
         new Writer().tulisKalimat();
         
-        FileInputStream input = new FileInputStream("D:\\DATA\\KULIAH\\Semester 6\\Pemrograman Jaringan (Bu Ratih)\\uts\\writer.txt");
+        FileInputStream input = new FileInputStream("D:\\DATA\\KULIAH\\tugas\\writer.txt");
        
         int data;
         while((data = input.read()) != -1) {
