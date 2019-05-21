@@ -18,7 +18,7 @@ public class inputScanner {
         Scanner keyboard = new Scanner(System.in);
         
         System.out.print("MASUKKAN NAMA ANDA : ");
-        String nama = keyboard.next();
+        String nama = keyboard.nextLine();
         
         System.out.print("MASUKKAN NIM ANDA : ");
         int nim = keyboard.nextInt();
